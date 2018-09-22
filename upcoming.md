@@ -47,12 +47,11 @@ Content-Type | application/json | Required
 
 ```
 ### Response Type 2
-*   Status code : 200
+*   Status code : 500
 
 ```json
     {
-        "success": false,
-        "message": "Something went wrong.Please try again later."
+        "message": "Server error"
     }
 ```
         
