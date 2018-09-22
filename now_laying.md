@@ -12,7 +12,8 @@ Key | Value | Consideration
 ---- | ------- | --------
 Content-Type | application/json | Required
 
-### Success Response
+### Response Type 1
+*   Status code : 200
   
 ```json
 {
@@ -45,13 +46,13 @@ Content-Type | application/json | Required
 }
 
 ```
-### Error Response
-#### Type 1
+### Response Type 2
+*   Status code : 200
 
 ```json
     {
         "success": false,
-        "message": 'Something went wrong.Please try again later.'
+        "message": "Something went wrong.Please try again later."
     }
 ```
         
